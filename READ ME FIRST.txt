@@ -1,0 +1,11 @@
+About the scripts: 
+usesa.py is the script which detects ears through a webcam.
+usesa2.py is the script which detects ears through pictures from the AWE database.
+boundingbox.m is the script which evaluates the boundingbox overlap.
+
+What you will need to run every script:
+Python with the opencv library and Matlab with the computer vision toolbox.
+
+Examples of some pictures which i ran through the script (parameters and results):
+0001.png - 1.1 and 4 -> x y w h : 376 105 15 25 -> overlap : 0.4291
+0031.png - 1.01 and 4 -> x y w h : 375 110 45 75 -> overlap : 0.7787
